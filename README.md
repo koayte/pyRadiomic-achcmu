@@ -7,9 +7,12 @@ A comprehensive Python-based radiomic analysis pipeline on magnetic resonance im
 
 ## Installation 
 Conda environment name: achcmu
+
 Once conda environment is activated, run the following: 
-`pip install git+https://github.com/AIM-Harvard/pyradiomics.git@v3.1.0`
-`pip install -r requirements.txt` 
+```
+pip install git+https://github.com/AIM-Harvard/pyradiomics.git@v3.1.0
+pip install -r requirements.txt
+```
 
 Download the patient data from https://zenodo.org/records/23171182?preview_file=P01.zip into `mri_folder_raw`.
 

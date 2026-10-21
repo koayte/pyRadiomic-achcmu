@@ -173,6 +173,7 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# NEWLY ADDED: Patient data
+# NEWLY ADDED: Patient data and output features 
 mri_folder/
 mri_folder_raw/
+outputs/
