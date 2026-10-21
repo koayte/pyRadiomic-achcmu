@@ -1,0 +1,14 @@
+# versions from Flouri et al. 2025 (Scientific Data) Methods section
+pyradiomics @ git+https://github.com/AIM-Harvard/pyradiomics.git@v3.1.0
+SimpleITK==2.4.1
+scikit-image==0.25.0
+
+# used by the script, versions not pinned by the authors
+numpy
+pandas
+joblib
+
+# imported but unused by the script - install to avoid ImportError,
+# or delete lines 10, 11, 21 of BrainMetastased_radiomics_extraction.py
+numba
+opencv-python
