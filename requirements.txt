@@ -12,3 +12,6 @@ joblib
 # or delete lines 10, 11, 21 of BrainMetastased_radiomics_extraction.py
 numba
 opencv-python
+
+# used by comparison script 
+openpyxl 

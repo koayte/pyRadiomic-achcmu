@@ -19,6 +19,10 @@ from os.path import join
 import pathlib
 
 import cv2
+
+#GLOBAL VARIABLE 
+replacers = {'mask_1__': 'mask_necrosis__', 'mask_2__': 'mask_tumor__', 'mask_3__': 'mask_oedema__'}
+
 #-----------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------
@@ -251,7 +255,6 @@ def return_radiomics(preprocess_list, input_bin_width):
 
 
 def my_main_funct(mri_folder):
-    replacers = {'mask_1__': 'mask_necrosis__', 'mask_2__': 'mask_tumor__', 'mask_3__': 'mask_oedema__'}
     #-----------------------------------------------------------------------------------
     # STEP #1 Import Data
     barlist = list()
